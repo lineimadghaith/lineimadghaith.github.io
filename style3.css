@@ -1,0 +1,66 @@
+body {
+    background-color: rgb(255, 244, 224);
+}
+nav ul {
+
+    background-color:rgb(255, 244, 224);
+    border-style:solid;
+    border-color:rgb(9, 62, 69);
+    border-width:5px;
+    padding:3%;
+    color: rgb(255, 244, 224);
+    border-radius: 10px;
+}
+nav ul li {
+    list-style-type:none;
+    display:inline;
+    margin-right: 10px;
+    margin-left: 10px;
+    
+}
+nav ul li a {
+    text-decoration:none;
+    position: relative;
+   
+} 
+a {
+    color:rgb(129, 209, 172);
+    font-size: 30px;
+    /*float:right;*/
+}
+table {
+    margin-right: auto;
+    margin-left: auto;
+    width:85%;
+}
+th {
+    height:90px;
+    font-size: 170%;
+    font-style: italic;
+    text-shadow: rgb(255, 244, 224) 2px 2px ;
+    
+}
+table th td {
+    border: solid ;
+    border-collapse: collapse;
+}
+tr {
+    background-color:rgb(129, 209, 172) ;
+    height:75px;
+}
+td{
+    font-size: 150%;
+}
+p {
+    font-style: oblique;
+    font-size: 180%;
+    text-shadow: rgb(129, 209, 172) 1px 2px;
+}
+p:hover {
+    color:rgb(129, 209, 172);
+    text-shadow: 1px 2px black;
+}
+.hat{
+    position: relative;
+    color:black;
+}
